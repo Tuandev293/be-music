@@ -1,0 +1,37 @@
+<?php
+return [
+    'request' => [
+        'input_required' => "Vui lòng nhập :attribute!",
+        'select_required' => "Vui lòng chọn :attribute!",
+        'input_regex' => "Vui lòng đúng định dạng :attribute!",
+        'input_min' => "Vui lòng nhập độ dài :attribute ít nhất :min kí tự!",
+        'input_max' => "Vui lòng nhập độ dài :attribute lớn nhất :max kí tự!",
+        'input_min_value' => "Vui lòng nhập :attribute lớn hơn hoặc bằng :min_value!",
+        'input_max_value' => "Vui lòng nhập :attribute nhỏ hơn hoặc bằng :max_value!",
+        'input_between' => "Vui lòng nhập :attribute nằm trong khoảng :min_value - :max_value!",
+        'input_before' => ":attribute phải nhỏ hơn :value.",
+        'input_after' => ":attribute phải lớn hơn :value.",
+        'input_invalid' => ":attribute vừa nhập không hợp lệ!",
+        'input_unique' => ":attribute đã được sử dụng",
+        'select_invalid' => ":attribute vừa chọn không hợp lệ!",
+        'select_more_than' => "Vui lòng chọn :attribute lớn hơn :value!",
+    ],
+    'attributes' => [
+        'name' => 'Họ và tên',
+        'username' => 'tên tài khoản',
+        'email' => 'Email',
+        'provider' => 'nền tảng',
+        'provider_id' => 'id nền tảng',
+        'amount' => 'tổng tiền',
+        'reference_number' => 'mã tham chiếu đơn hàng',
+        'status' => 'kết quả đơn hàng',
+        'trans_ref_no' => 'mã tham chiếu vtc',
+        'website_id' => 'mã website',
+        'signature' => 'chữ ký',
+        'password' => 'Mật khẩu',
+        'gender' => 'Giới tính',
+        "phone"=> "Số điện thoại",
+        'song_id' => "Id bài hát",
+        'title' => "Tiêu đề"
+    ],
+];
